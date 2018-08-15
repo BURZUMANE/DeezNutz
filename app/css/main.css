@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ebebeb; }
+
+.wrapper {
+  border: 1px solid black;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+
+.wrapper-top {
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff; }
+
+.menu-container {
+  width: 960px;
+  border: 1px dotted red;
+  display: flex;
+  justify-content: space-between; }
+
+.header-main {
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+    width: 218px;
+    height: 33px;
+}
+
+.search-button {
+
+}
+
+.logo-container {
+  display: flex;
+  justify-content: start;
+  align-items: center; }
+  .logo-container p {
+    margin-left: 16px;
+    border-bottom-left-color: #999999;
+    color: #999999;
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px; }
+
+/*possible to use sass mixins*/
+.text-menu__list, .icon-menu__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between; }
+
+.icon-menu__list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: #d2d2d2;
+  border-radius: 50px; }
+
+.logo {
+  color: #333333;
+  font-family: Georgia;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "I" */
+  font-size: 36px;
+  line-height: 36px;
+  /* Text style for "MAGINATIVE" */
+  line-height: 26px; }
